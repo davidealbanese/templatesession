@@ -16,9 +16,8 @@ navbar:
       menu:
       - text: Lecture
       - href: articles/session_lecture.html
-        menu:
-        - text PDF
-          href: articles/session_lecture.pdf
+      - text: Lecture PDF
+      - href: articles/session_lecture.pdf
       - text: -------
       - text: Lab
       - href: articles/session_lab.html
