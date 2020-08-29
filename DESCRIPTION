@@ -1,0 +1,18 @@
+Package: template_session
+Type: Package
+Title: Lecture and lab materials for CUNY Biostatistics 2 session N
+Version: 0.1.0
+Author: Levi Waldron
+Maintainer: Levi Waldron <lwaldron.research@gmail.com>
+Description: Description of this session
+Imports:
+    tidyverse
+Suggests:
+    pkgdown,
+    knitr,
+    rmarkdown
+License: CC BY 4.0
+Encoding: UTF-8
+LazyData: true
+URL: https://bios2.waldronlab.io/template_session
+VignetteBuilder: knitr
