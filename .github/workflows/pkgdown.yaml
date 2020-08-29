@@ -10,9 +10,13 @@ jobs:
         run: |-
           Rscript -e "install.packages('remotes', repos = 'https://demo.rstudiopm.com/all/__linux__/bionic/latest')"
           Rscript -e "remotes::install_deps(dependencies = TRUE, repos = 'https://demo.rstudiopm.com/all/__linux__/bionic/latest')"
+      # use several steps instead of build_site() because I don't want build_reference()
       - name: Build pkgdown
         run: |
-           PATH=$PATH:$HOME/bin/ Rscript -e 'pkgdown::build_site(".")'
+           PATH=$PATH:$HOME/bin/ Rscript -e 'pkgdown::init_site(".")'
+           PATH=$PATH:$HOME/bin/ Rscript -e 'pkgdown::build_home(".")'
+           PATH=$PATH:$HOME/bin/ Rscript -e 'pkgdown::build_articles(".")'
+           PATH=$PATH:$HOME/bin/ Rscript -e 'pkgdown::build_news(".")'
       # deploy needs rsync? Seems so.
       - name: Install deploy dependencies
         run: |

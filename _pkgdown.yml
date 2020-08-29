@@ -3,6 +3,7 @@ url: https://waldronbios2.github.io/templatesession/
 template:
   params:
     bootswatch: flatly
+    ganalytics: UA-176789980-1
 
 home:
   title: "CUNY SPH Biostatistics 2"
