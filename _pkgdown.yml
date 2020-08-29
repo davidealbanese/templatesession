@@ -8,7 +8,7 @@ template:
 navbar:
   structure:
     left:  [home, articles]
-    right: [github]
+    right: [github, twitter]
 
 components:
   home: ~
@@ -18,3 +18,7 @@ components:
 authors:
   Levi Waldron:
     href: https://waldronlab.io
+
+twitter:
+  icon: "fab fa-twitter fa-lg"
+  href: https://twitter.com/leviwaldron1
