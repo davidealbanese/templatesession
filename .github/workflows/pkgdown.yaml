@@ -17,7 +17,7 @@ jobs:
            PATH=$PATH:$HOME/bin/ Rscript -e 'pkgdown::build_home(".")'
            PATH=$PATH:$HOME/bin/ Rscript -e 'pkgdown::build_articles(".")'
            PATH=$PATH:$HOME/bin/ Rscript -e 'pkgdown::build_news(".")'
-           rmarkdown::render(input="vignettes/session_lecture.Rmd", output_format = "beamer_presentation", output_file = "docs/articles/session_lecture.pdf")
+           rmarkdown::render(input="vignettes/session_lecture.Rmd", output_format = "beamer_presentation", output_file = "../docs/articles/session_lecture.pdf")
       # deploy needs rsync? Seems so.
       - name: Install deploy dependencies
         run: |
