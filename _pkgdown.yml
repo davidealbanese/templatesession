@@ -1,3 +1,11 @@
+home:
+  strip_header: true
+  links:
+  - text: Full course notes
+    href: https://waldronbios2.github.io/cunybios2/
+  - text: git clone
+    href: https://github.com/waldronbios2/templatesession.git
+
 url: https://waldronbios2.github.io/templatesession/
 
 template:
@@ -10,7 +18,7 @@ navbar:
     left:  [home, articles]
     right: [github, twitter]
   components:
-    home: ~
+    home: 
     articles:
       text: Lecture and Lab
       menu:
@@ -26,6 +34,7 @@ navbar:
     twitter:
       icon: "fab fa-twitter fa-lg"
       href: https://twitter.com/leviwaldron1
+
 
 authors:
   Levi Waldron:
