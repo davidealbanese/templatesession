@@ -10,8 +10,10 @@ navbar:
     left:  [home, articles]
     right: [github]
 
-articles:
-- text: "Lecture and lab notes"
+components:
+  home: ~
+  articles:
+    text: Lecture and lab notes
 
 authors:
   Levi Waldron:
