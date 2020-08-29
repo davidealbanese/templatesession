@@ -7,7 +7,8 @@
 * [The full collection of course notes](https://waldronbios2.github.io/cunybios2/)
 * [This session's web page](https://waldronbios2.github.io/templatesession/)
 * [This session's GitHub page](https://github.com/waldronbios2/templatesession)
-* The URL to clone this repo locally using `git` is https://github.com/waldronbios2/templatesession.git
+* The URL to clone this session locally using `git` is https://github.com/waldronbios2/templatesession.git
+    + *Code is found in the "vignettes" folder*
 
 # Session N: title
 
