@@ -8,7 +8,7 @@
 * [This session's web page](https://waldronbios2.github.io/templatesession/)
 * [This session's GitHub page](https://github.com/waldronbios2/templatesession)
 * The URL to clone this session locally using `git` is https://github.com/waldronbios2/templatesession.git
-    + *Code is found in the "vignettes" folder*
+    + Note: code is in the "vignettes" folder
 
 # Session N: title
 
