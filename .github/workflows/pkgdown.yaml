@@ -5,9 +5,7 @@ jobs:
     runs-on: ubuntu-18.04
     steps:
       - name: Checkout Repository
-        uses: actions/checkout@v2
-        with:
-          ref: ${{ github.head_ref }}
+        uses: actions/checkout@v1
       - name: Install Package Dependencies
         run: |-
           Rscript -e "install.packages('remotes', repos = 'https://demo.rstudiopm.com/all/__linux__/bionic/latest')"
@@ -15,10 +13,10 @@ jobs:
       - name: Build pkgdown
         run: |
            PATH=$PATH:$HOME/bin/ Rscript -e 'pkgdown::build_site(".")'
-      - name: Deploy to GitHub Pages
-        if: github.ref == 'refs/heads/master'
-        uses: maxheld83/ghpages@v0.2.0
-        env:
-          BUILD_DIR: docs
-          GH_PAT: ${{ secrets.GH_PAT }}
+      - name: Deploy 🚀
+        uses: JamesIves/github-pages-deploy-action@releases/v3
+        with:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          BRANCH: gh-pages # The branch the action should deploy to.
+          FOLDER: docs # The folder the action should deploy.
     container: rocker/verse:latest
