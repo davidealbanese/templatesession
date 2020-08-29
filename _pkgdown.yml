@@ -9,6 +9,9 @@ home:
   title: "CUNY SPH Biostatistics 2"
   type: inverse
 
+articles:
+- title: "Lecture and lab notes"
+
 
 navbar:
   right:
