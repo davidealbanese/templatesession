@@ -1,8 +1,14 @@
 ---
-title: "Session N: What this lecture is about"
+title: 'Session N: What this lecture is about'
 author: "Levi Waldron"
-institute: "CUNY SPH Biostatistics 2"
 output:
+  pdf_document:
+    toc: yes
+  html_document:
+    df_print: paged
+    number_sections: yes
+    theme: lumen
+    toc: yes
   beamer_presentation:
     colortheme: dove
     df_print: paged
@@ -10,6 +16,7 @@ output:
     slide_level: 2
     theme: Hannover
   slidy_presentation: default
+institute: CUNY SPH Biostatistics 2
 ---
 
 # Learning objectives and outline

@@ -6,7 +6,7 @@ output:
   html_document:
     toc: yes
     df_print: paged
-    theme: cerulean
+    theme: lumen
     number_sections: yes
 ---
 

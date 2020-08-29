@@ -2,7 +2,7 @@ url: https://waldronbios2.github.io/templatesession/
 
 template:
   params:
-    bootswatch: cosmo
+    bootswatch: lumen
     ganalytics: UA-176789980-1
 
 navbar:
