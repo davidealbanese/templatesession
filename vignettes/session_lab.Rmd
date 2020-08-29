@@ -14,9 +14,8 @@ output:
 
 1. Learning objective 1
 
-**Questions**
+**Exercises**
 
-1. Question 1
+1. Exercise 1
 
-# Load and explore the data
 
