@@ -14,4 +14,4 @@
 
 **Learning Objectives**
 
-**Outline**
+**Exercises**
