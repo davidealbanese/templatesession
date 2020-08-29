@@ -17,11 +17,14 @@ navbar:
       - text: Lecture
       - href: articles/session_lecture.html
         menu:
-        - text "Lecture PDF"
+        - text PDF
           href: articles/session_lecture.pdf
       - text: -------
       - text: Lab
       - href: articles/session_lab.html
+    twitter:
+      icon: "fab fa-twitter fa-lg"
+      href: https://twitter.com/leviwaldron1
 
 authors:
   Levi Waldron:
