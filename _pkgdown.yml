@@ -10,7 +10,7 @@ home:
   type: inverse
 
 articles:
-- title: "Lecture and lab notes"
+- text: "Lecture and lab notes"
 
 
 navbar:
