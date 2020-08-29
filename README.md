@@ -1,2 +1,2 @@
-# template_session
+# templatesession
 A template for creating new sessions
