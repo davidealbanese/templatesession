@@ -5,7 +5,9 @@ jobs:
     runs-on: ubuntu-18.04
     steps:
       - name: Checkout Repository
-        uses: actions/checkout@master
+        uses: actions/checkout@v2
+        with:
+          ref: ${{ github.head_ref }}
       - name: Install Package Dependencies
         run: |-
           Rscript -e "install.packages('remotes', repos = 'https://demo.rstudiopm.com/all/__linux__/bionic/latest')"
