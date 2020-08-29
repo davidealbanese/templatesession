@@ -9,11 +9,14 @@ home:
   title: "CUNY SPH Biostatistics 2"
   type: inverse
 
+navbar:
+  structure:
+    left:  [home, articles]
+    right: [github]
+
 articles:
 - text: "Lecture and lab notes"
 
-
-navbar:
-  right:
-   - icon: fa-github
-     href: https://github.com/waldronbios2/templatesession/
+authors:
+  Levi Waldron:
+    href: https://waldronlab.io
