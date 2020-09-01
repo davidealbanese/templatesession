@@ -4,6 +4,14 @@ jobs:
   build:
     runs-on: ubuntu-18.04
     steps:
+      - name: trigger action on main site
+        run: |
+          curl \
+            -X POST \
+            -u "${{ secrets.PAT_USERNAME}}:${{secrets.PAT_TOKEN}}" \
+            -H "Accept: application/vnd.github.v3+json" \
+            -d '{"ref":"master"}' \
+            https://api.github.com/repos/waldronbios2/cunybios2/actions/workflows/build.yaml/dispatches
       - name: Checkout Repository
         uses: actions/checkout@v1
       - name: Install Package Dependencies
