@@ -6,7 +6,7 @@ home:
   - text: git clone
     href: https://github.com/waldronbios2/templatesession.git
 
-url: https://waldronbios2.github.io/templatesession/
+url: https://bios2.waldronlab.io
 
 template:
   params:
