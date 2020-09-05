@@ -1,4 +1,4 @@
-name: Render and Deploy pkgdown Website
+name: build
 'on': push
 jobs:
   build:
