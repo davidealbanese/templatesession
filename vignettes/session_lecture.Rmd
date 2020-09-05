@@ -1,6 +1,7 @@
 ---
 title: 'Session N: What this lecture is about'
 author: "Levi Waldron"
+clean: false
 output:
   pdf_document:
     toc: yes
@@ -16,6 +17,9 @@ output:
     slide_level: 2
     theme: Hannover
   slidy_presentation: default
+  md_document:
+    preserve_yaml: false
+always_allow_html: true
 institute: CUNY SPH Biostatistics 2
 ---
 
